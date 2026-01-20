@@ -1,4 +1,5 @@
-Theproject
+What is happnening
+
 Louise Spivey
 1310122
 This repository will contain my software engineering homework
