@@ -16,7 +16,7 @@ def multiply(a, b):
 
 def divide(a, b):
     if b == 0:
-        print("You cannot divide by 0")
+        raise ValueError("You cannot divide by 0")
     return a / b   
 
 def power(a, b):
@@ -24,6 +24,6 @@ def power(a, b):
 
 def square_root(a):
     if a < 0:
-        print("Your square root cannot be negative")
+        raise ValueError("Your square root cannot be negative")
     return math.sqrt(a)
 
